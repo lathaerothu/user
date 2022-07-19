@@ -8,22 +8,24 @@
 		<version>2.7.1</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	
-	<groupId>com.example</groupId>
-	<artifactId>display</artifactId>
+	<groupId>com.mss</groupId>
+	<artifactId>emanagement-junit-2</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>display</name>
+	<name>emanagement-junit-2</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>11</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jdbc</artifactId>
 		</dependency>
-		 
 		<dependency>
+            <groupId>com.fasterxml.jackson.dataformat</groupId>
+            <artifactId>jackson-dataformat-xml</artifactId>
+        </dependency>
+				<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
